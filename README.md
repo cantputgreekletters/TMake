@@ -28,12 +28,12 @@ For slightly more info, use the -h flag.
 ## Example Template
 
 ```
-./c:
+<program_path>/templates/c:
 incl  main
 
-./c/incl:
+<program_path>/templates/c/incl:
 
-./c/main:
+<program_path>/templates/c/main:
 main.c
 ```
 where main.c has

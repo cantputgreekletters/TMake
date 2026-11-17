@@ -24,10 +24,10 @@ int main(int argc, char * argv[])
     }else if(strcmp(template_name, "-h") == 0)
     {
         printf(
-            "tmake -l, lists all the available templates\n."
-            "tmake -h, help\n."
-            "tmake <template_name>, adds the selected template to your current path\n."
-            "tmake <template_name> <path>, adds the selected template to the given path\n.");
+            "tmake -l, lists all the available templates.\n"
+            "tmake -h, help.\n"
+            "tmake <template_name>, adds the selected template to your current path.\n"
+            "tmake <template_name> <path>, adds the selected template to the given path.\n");
         return 0;
     }
 
